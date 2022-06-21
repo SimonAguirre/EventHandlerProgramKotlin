@@ -55,7 +55,7 @@ class MainActivity : AppCompatActivity() {
 
         }
         butt.setOnLongClickListener {
-            if (count <= 7513){
+            if (count >= 7513){
                 text.text = "AHA! so you figured it out. Yeah! the button also listens to press and holds"
                 count = 9999
                 true
