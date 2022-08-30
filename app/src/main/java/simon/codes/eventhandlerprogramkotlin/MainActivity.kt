@@ -23,15 +23,15 @@ class MainActivity : AppCompatActivity() {
             when (count) {
                 in 1..10 -> text.text = "Wow.. thank you for trying"
                 in 20..50 -> text.text = "ugh mmorre taps senpai JK"
-                in 100..150 -> text.text = "are you waiting for any response from me? tap more"
-                in 150..180 -> text.text = "unfortunately.. there will be no more update from me"
+                in 50..100 -> text.text = "are you waiting for any response from me? tap more"
+                in 100..180 -> text.text = "unfortunately.. there will be no more update from me. Trying until 180?"
                 in 180..200 -> text.text = "no seriously, there's no surprise what so ever even if you reach a thousand"
                 in 200..230 -> text.text = "so you really pushed... i mean tapped this far?"
                 in 230..240 -> text.text = "-_-, seriously..."
                 in 240..270 -> text.text = "even if you look into the source code there will be nothing in the end of this"
                 in 270..290 -> text.text = "in fact. there won't be an end, just your boredom"
-                in 290..1280 -> text.text = "you know what..? for your boredom, I will help you. hmmm"
-                in 1280..1281 -> count += 2316
+                in 290..295 -> text.text = "you know what..? for your boredom, I will help you. hmmm"
+                in 295..1281 -> count += 2316
                 in 2606..2620 -> text.text = "How does it feel to reach this far? feels good?"
                 in 2620..2635 -> count += 2316
                 in 4936..3945 -> text.text = "i'm done... please stop. I don't have any idea why keep tapping up to this point"
